@@ -25,7 +25,7 @@ const togglePasswordVisibility = () => {
     >
       <h2 class="text-3xl font-bold">Auth</h2>
       <p class="text-[#828282] text-xs">Lorem ipsum dolor sit amet.</p>
-      <div class="flex flex-col items-center gap-6 justify-center">
+      <form class="flex flex-col items-center gap-6 justify-center">
         <div class="relative w-full">
           <input
             placeholder="Email"
@@ -67,7 +67,7 @@ const togglePasswordVisibility = () => {
         <button class="bg-[#2F80ED] rounded-xl px-4 py-2 text-white w-full">
           Start now
         </button>
-      </div>
+      </form>
       <p class="text-[#828282] text-xs">
         or continue with these social profile
       </p>
